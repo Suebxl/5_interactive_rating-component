@@ -23,7 +23,6 @@ body {
 .card {
   background-color: hsl(213, 19%, 18%);
   padding: 24px;
-  margin-bottom: 8px;
   border-radius: 12px;
   width: 350px;
   height: 350px;
@@ -32,6 +31,9 @@ body {
   justify-content:space-between;
 }
 
+.card.hidden{
+  display:none;
+}
 
 .star{
   background-color: #4f5764 ;
@@ -69,39 +71,49 @@ h2 {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  line-height: 50px;
-  text-align: center;
+  border-width: 0px;
 }
 
 .rating-number:hover {
   background-color: hsl(217, 12%, 63%);
+ }
+
+ .rating-number:focus {
+  background-color: hsl(25, 97%, 53%);
 }
 
-.button {
+#submit {
   background-color: white;
-  color: orange;
+  border-width: 0px;
   padding: 10px 0 10px 0;
-  text-align: center;
   border-radius: 22px;
+  color: hsl(25, 97%, 53%);
   font-weight: 700;
+}
+
+#submit:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white
 }
 
 .card-thankyou {
   text-align: center;
   align-items: center;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.card-thankyou.hidden {
+  display:none;
 }
 
 .image-thankyou{
   width: 35%;
 }
 
-.rating-paragraph {
-  color: orange;
+#rating-thankyou-paragraph {
+  color: hsl(25, 97%, 53%);
   background-color: #4f5764;
   border-radius: 14px;
   padding: 8px;
-}
-
-.hidden {
-  display: none;
 }
