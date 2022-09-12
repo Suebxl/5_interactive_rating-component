@@ -12,6 +12,8 @@ Users should be able to:
 
 ### Screenshot
 
+![Capture d’écran 2022-09-09 à 17 38 41](https://user-images.githubusercontent.com/73802863/189449591-a2f5f348-280b-4d60-b76c-d317a3cd2ffc.png)
+
 ## My process
 
 ### Built with
@@ -23,6 +25,6 @@ Users should be able to:
 
 ### What I learned
 
-- CSS: center image in a circle using line-height
+- CSS: button intrinsic CSS properties
 
 ### Continued development
